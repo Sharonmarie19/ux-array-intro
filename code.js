@@ -9,18 +9,19 @@ Exercise One - Accessing an array
 
 */
 
-let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
+let names = ["The", "dog", "jumped", "over", "the", "fence"];
+console.log(sentence)
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
 
 // Your Code Here
-
+console.log(names[2])
 // Step Two ------------------
 // Log the last word in the array to the console.
 
 // Your Code Here
-
+console.log(sentence[5])
 /*
 ---------------------------------------------------------------------------
 Exercise Two - Adding up numbers
@@ -34,7 +35,8 @@ Then log the sum to the console. (Hint: It should be 28)
 let numbers = [3, 4, 5, 7, 9];
 
 // Your Code Here
-
+let sum = numbers.reduce((a, b)=> a + b)
+console.log(sum)
 /*
 ---------------------------------------------------------------------------
 Exercise Three - Creating an array
@@ -46,10 +48,12 @@ Exercise Three - Creating an array
 // The array should be assigned to a variable named "colors"
 
 // Your Code Here
-
+let colors =["blue" , "orange", "pink", "purple", "yellow"];
+console.log(colors)
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-
+let colors = ["blue" , "orange", "pink", "purple", "yellow"];
+console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
 Exercise Four - Updating an array
