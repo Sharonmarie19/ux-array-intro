@@ -10,7 +10,7 @@ Exercise One - Accessing an array
 */
 
 let names = ["The", "dog", "jumped", "over", "the", "fence"];
-console.log(sentence)
+
 
 // Step One ------------------
 // Log the word "jumped" to the console by accessing it in the array.
@@ -19,9 +19,9 @@ console.log(sentence)
 console.log(names[2])
 // Step Two ------------------
 // Log the last word in the array to the console.
-
+console.log(names[5])
 // Your Code Here
-console.log(sentence[5])
+// console.log(sentence[5])
 /*
 ---------------------------------------------------------------------------
 Exercise Two - Adding up numbers
@@ -49,10 +49,10 @@ Exercise Three - Creating an array
 
 // Your Code Here
 let colors =["blue" , "orange", "pink", "purple", "yellow"];
-console.log(colors)
+
 // Step Two ------------------
 // Log the length of the array to the console (it should print 5)
-let colors = ["blue" , "orange", "pink", "purple", "yellow"];
+
 console.log(colors.length);
 /*
 ---------------------------------------------------------------------------
@@ -60,13 +60,14 @@ Exercise Four - Updating an array
 
 */
 
-let names = []; // Don't modify this line.
+let newNames = []; // Don't modify this line.
 
 // Step One ------------------
 // Add 5 names of people to the array.
 // Then log your array to the console.
 
 // Your Code Here
+newNames = ["John", "Jacob", "Jinglheimer", "Schmit", "Bob"];
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
