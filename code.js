@@ -12,16 +12,16 @@ Exercise One - Accessing an array
 let names = ["The", "dog", "jumped", "over", "the", "fence"];
 
 
-// Step One ------------------
-// Log the word "jumped" to the console by accessing it in the array.
+// // Step One ------------------
+// // Log the word "jumped" to the console by accessing it in the array.
 
-// Your Code Here
-console.log(names[2])
-// Step Two ------------------
-// Log the last word in the array to the console.
+// // Your Code Here
+ console.log(names[2])
+// // Step Two ------------------
+// // Log the last word in the array to the console.
 console.log(names[5])
 // Your Code Here
-// console.log(sentence[5])
+
 /*
 ---------------------------------------------------------------------------
 Exercise Two - Adding up numbers
@@ -67,14 +67,15 @@ let newNames = []; // Don't modify this line.
 // Then log your array to the console.
 
 // Your Code Here
-newNames = ["John", "Jacob", "Jinglheimer", "Schmit", "Bob"];
 
 // Step Two ------------------
 // Using the index variable, assign a new name to the given index.
 // Then log the modified array to the console.
-let index = 2;
+index = 2
 
 // Your Code Here
+newNames = ["Jermain", "Jackey", "Michael", "Marlon", "Tito"];
+console.log(newNames)
 
 /*
 ---------------------------------------------------------------------------
@@ -87,7 +88,9 @@ You will need to assign the result to a new variable.
 Then log the new array to the console.   Hint: Use concat, this was shown in the reading.
 */
 
-let firstArray = ["This", "will", "make"];
-let secondArray = ["a", "combined", "array."];
 
 // Your Code Here.
+let firstArray = ["This", "will", "make"];
+let secondArray = ["a", "combined", "array."];
+let sentence = firstArray.concat (secondArray);
+console.log(sentence)
